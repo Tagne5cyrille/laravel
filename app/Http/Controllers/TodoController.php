@@ -46,6 +46,7 @@ class TodoController extends Controller
         // });
         // dd($datas);
         $users = User::all();
+        //on ne connaissaient pas le responsive d'un site
         return view('todos.index', compact('datas', 'users'));
     }
     /***
@@ -159,7 +160,7 @@ class TodoController extends Controller
 
 
        /**
-     * change le status d'un todo en done
+     * change le status d'une todo en done
      * 
      * @param Todo $todo
      * @return void

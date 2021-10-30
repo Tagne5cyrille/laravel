@@ -2,8 +2,8 @@
 
 
 @section('content')
-    <div class="bg-gray-400 mx-56 my-16 p-6">
-        <h1 class="text-5xl font-sans py-4">Your todolist width laravel !</h1>
+    <div class="bg-gray-400 lg:mx-44 lg:my-16 m-2 text-center lg:text-left lg:p-6 p-2">
+        <h1 class="lg:text-5xl text-xl lg:font-sans py-4">Your todolist width laravel !</h1>
         <h2 class="pb-4 text-xl">A very simple todolist application to learn laravel</h2>
         <p class=" py-4 font-semibold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro incidunt ma
             gnam non. Ratione modi hic earum voluptas ipsa asperiores atque! At culpa

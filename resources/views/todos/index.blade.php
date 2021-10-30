@@ -71,11 +71,11 @@
                                                 </svg>
                                               </span>
                                             </button>
-                                            <ul class="bg-white border rounded-sm transform scale-0 group-hover:scale-100 absolute transition duration-150 ease-in-out origin-top min-w-32">
+                                            {{-- <ul class="bg-white border rounded-sm transform scale-0 group-hover:scale-100 absolute transition duration-150 ease-in-out origin-top min-w-32">
                                                     @foreach ($users as $user )
-                                                    <li class="rounded-sm px-3 py-1 hover:bg-gray-100"><a href="/todos/{{ $data->id }}/affectedTo/{{ $user->id }}">{{ $user->name }}</a></li>
+                                                    <li class="rounded-sm px-3 py-1 hover:bg-gray-100"><a href="/todos/{{ $datas->id }}/affectedTo/{{ $user->id }}">{{ $user->name }}</a></li>
                                                     @endforeach
-                                                  </ul>
+                                                  </ul> --}}
                                           </div>
                                           
                                           <style>
